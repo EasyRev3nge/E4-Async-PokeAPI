@@ -36,7 +36,7 @@ const submitForm = () => {
     const inputForm = input.value
     if(inputForm === "") {
         falla.innerHTML = `
-            El campo esta vacio
+        ¡El campo esta vacio!
         `
         falla.classList.remove("ok")
     } else if (inputForm < 1 || inputForm > 905) {

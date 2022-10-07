@@ -62,8 +62,8 @@ body {
 .form__input {
     width: 100px;
     margin-top: 10px;
-    font-size: 1.4rem;
-    padding: 0.5rem 1.4rem;
+    font-size: 1.5rem;
+    padding: 1rem 1.1rem;
     border-radius: 2px;
     border: none;
 }
@@ -71,23 +71,23 @@ body {
     outline: none;
 }
 .form__submit {
-    padding: 0.6rem 2rem;
+    padding: 1rem 2rem;
     border-radius: 8px;
     border: none;
     cursor: pointer;
     background-color: var(--rojo);
     color: #FFF;
-    margin-top: 14px;
-    
+    margin-top: 27px;
+    font-size: 1.5rem;
     transition: all 0.2s ease 0s;
 }
 .form__submit:hover {
     opacity: 0.9;
 }
 .falla {
-    color: #870b0b;
+    color: #cb1f1f;
     position: absolute;
-    top: 40px;
+    top: 60px;
     width: 200px;
     text-align: center;
 }
